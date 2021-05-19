@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /kafka
+kafka:
+  topic:
+    user: topic-user
+  group:
+    id: group-user
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
