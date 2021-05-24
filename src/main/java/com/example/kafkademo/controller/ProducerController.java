@@ -11,7 +11,7 @@ public class ProducerController {
     @Autowired
     private KafkaProducer producer;
 
-    @GetMapping("/priducer")
+    @GetMapping("/producer")
     public ResponseEntity producer(){
         producer.sendMsg();
         return ResponseEntity.ok().build();
